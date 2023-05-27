@@ -331,14 +331,14 @@ footer .copy:hover {
 
 
 
-@media screen and (max-width: 1400px) {
-    .right-section {
+@media screen and (min-width: 1400px) {
+    /* .right-section {
         display: none;
     }
 
     .left-section {
         width: 100%;
-    }
+    } */
 
     .card_color_warn {
         font-size: 14px;
@@ -360,22 +360,48 @@ footer .copy:hover {
      }
 
     .info img {
-        width: 200px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .info img {
         width: 150px;
     }
 }
 
-@media screen and (max-width: 1199.98px) {
-   
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .titulo {
+        font-size: 14px;
+    }
+
+    .texto {
+        font-size: 12px;
+    }
+
+    .info img {
+        width: 130px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px)  {
+    .titulo {
+        font-size: 14px;
+    }
+
+    .texto {
+        font-size: 10px;
+    }
+
+    .info img {
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 991.98px) {
     .agregar-imagen {
+        width: 100%;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    .left-section {
         width: 100%;
     }
 
